@@ -1,0 +1,105 @@
+.container img{
+    display:block;
+    border:2px solid red;
+    margin: 12px auto;
+    width:100%;
+}
+.container h1{
+   width:100%;
+   text-align: center;
+    margin:12px auto;
+    display: inline block;
+    border:2px solid blue;
+    margin:12px auto;}
+
+.container1 img{
+    display:block;
+    border:2px solid red;
+    margin: 12px auto;
+    width:100%;
+}
+.container1 h1{
+   width:100%;
+   text-align: center;
+    margin:12px auto;
+    display: inline block;
+    border:2px solid blue;
+    margin:12px auto;}
+    .left{
+    position:absolute;
+    left: 3px;
+    top:20px;
+    display:inline-block;
+    border: 2px solid red;
+
+} 
+
+.navbar{
+    display:inline-block;
+    background-color: rgb(69, 206, 176);
+}
+.navbar li{
+    display:inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    color:rgb(181, 111, 111);
+    text-decoration: none;
+    padding: 34px 23px;
+}
+ .navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:rgb(67, 61, 53);
+    }
+    .btn{
+        
+        margin: 0px 9px;
+        background-color: rgb(58, 61, 51);
+        color:rgb(132, 144, 155);
+        padding: 4px 14px;
+        border:2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+    background-color: brown;
+    }
+   body{
+       font-family: 'Baloo Bhai',cursive;
+    
+   }
+   h1{
+       background-color:aqua;
+   }
+
+   .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    width: 100%;
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-item a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-item a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  .nav-item a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
